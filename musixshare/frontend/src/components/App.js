@@ -1,5 +1,7 @@
+import { ReactDOM } from 'react';
 import React, { Component } from 'react';
 import {render} from 'react-dom';
+import LandingPage from './LandingPage';
 
 
 
@@ -13,7 +15,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>App</div>
+        <LandingPage />
     )
   }
 }
