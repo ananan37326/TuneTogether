@@ -15,7 +15,9 @@ export default class App extends Component {
 
   render() {
     return (
-        <LandingPage />
+        <div className="center">
+            <LandingPage />
+        </div>
     )
   }
 }
